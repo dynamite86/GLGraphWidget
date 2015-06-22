@@ -26,12 +26,13 @@ protected:
 
 private:
     QPen m_graphPen;
+    QPen m_axisPen;
     QPointF m_pt1;
     QPointF m_pt2;
 
 private slots:
     void m_slotDrawGraph(QPointF pt1, QPointF pt2);
-
+    void m_slotSaveScreenShot();
 };
 
 #endif // GLGRAPHWIDGET_H

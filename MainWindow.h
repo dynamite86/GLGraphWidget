@@ -22,6 +22,9 @@ private:
     Ui::MainWindow *ui;
     GLGraphWidget  *m_glWidget;
     Spamer         *m_spamer;
+
+protected:
+    void keyPressEvent(QKeyEvent *event);
 };
 
 #endif // MAINWINDOW_H
